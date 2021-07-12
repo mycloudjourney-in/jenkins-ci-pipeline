@@ -3,7 +3,7 @@ node {
         stage "Stage #"+i
         print "Hello World !"
         if (i==0){
-            git clone "https://github.com/mycloudjourney-in/jenkins-ci-pipeline.git"
+            //git clone "https://github.com/mycloudjourney-in/jenkins-ci-pipeline.git"
             echo "Running on Stage #0"
         } //if cond
         else {
